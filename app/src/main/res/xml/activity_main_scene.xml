@@ -4,6 +4,26 @@
 
     <ConstraintSet android:id="@+id/start">
         <Constraint android:id="@+id/widget" />
+        <Constraint
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/editTextTextPersonName"
+            app:layout_constraintTop_toTopOf="@+id/splash_text"
+            android:layout_marginTop="95dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.004" />
+        <Constraint
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName"
+            android:layout_marginTop="117dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
     </ConstraintSet>
 
     <ConstraintSet android:id="@+id/end">
